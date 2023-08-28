@@ -5,8 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MailDadi</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500;700&family=PT+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- gioco dadi -->
+    <h1>CLICCA QUI PER INIZIARE LA TUA PARTITA</h1>
+    <div id="result"></div>
+        <div class="container">
+            <button id="but" class="btn">Clicca Qui</button>
+            <div class="d-flex">
+                <div id="dadoUt" class="cube"></div>
+                <div id="dadoPc" class="cube"></div>
+            </div>
+        </div>
+    <!-- /gioco dadi -->
+
+    
+
+    <!-- email -->
+    <h1>INSERISCI QUI LA TUA MAIL</h1>
+    <div id="access"></div>
+    <div class="container">
+        <input id="emailUtente" class="mail" type="email" placeholder="inserisci qui la tua mail">
+        <button id="send" class="btn">Invia</button>
+    </div>
+    <!-- /email -->
+
+
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

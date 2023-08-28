@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: paleturquoise;
+}
+h1{
+    color: slateblue;
+    text-align: center;
+    margin-top: 3rem;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    background-color: peachpuff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 black;
+    height: 200px;
+    position: relative;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.cube{
+    background-color: white;
+    width: 45%;
+    aspect-ratio: 1;
+    margin-top: 3rem;
+    box-shadow: 0 0 5px 0 black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.btn{
+    position: absolute;
+    top: 3%;
+    left: 44%;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 black;
+    border: none;
+    background-color: papayawhip;
+}
+.mail{
+    width: 60%;
+    margin: 3rem 20%;
+    padding: 0.3rem 0.5rem;
+    border-radius: 20px;
+    box-shadow: 2px 1px 0 gray;
+}
+#result{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: orangered;
+    text-align: center;
+}
+#access{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: orangered;
+    text-align: center;
+}
